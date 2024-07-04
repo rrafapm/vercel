@@ -1,0 +1,16 @@
+{
+  "name": "vercelapp",
+  "version": "1.0.0",
+  "description": "API para subir a vercel",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "dev": "nodemon api/index.js"
+  },
+  "author": "RPM",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  }
+}
